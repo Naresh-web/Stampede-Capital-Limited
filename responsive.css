@@ -1,0 +1,143 @@
+
+@media (max-width:991px){
+	header{
+		position:relative;
+		z-index: 999!important;
+	}
+	 .nav ul.menu{
+		display:none;
+		overflow: hidden;
+	}
+	 .nav ul.menu{
+		flex-direction:column;
+		position:absolute;
+		top:68px;
+		right:0;
+		background: #ffffff;
+		width: 100%;
+		text-align: center;
+		z-index: 999;
+		border-radius: 5px;
+		box-shadow: 0 5px 12px -6px #0000004d;		
+	}
+	 .nav ul.menu li {
+		border-bottom:1px solid #0000001a;
+	}
+	 .nav ul.menu li:nth-child(3) {
+		padding-right:0;
+	}
+	.nav ul.menu li a{
+		padding:8px 0;
+		width:100%;
+	}
+	.nav ul.menu li a:hover{
+		padding:8px 0;
+		width:100%;
+		background:#55a2ff;
+		color:#ffffff;
+	}	
+	 header .nav ul li a:after{
+		height:0!important;
+	}	
+	header .nav ul li a.active:after{
+		height: 0;
+	}		
+	header i{
+		color:#000;
+		display:block!important;
+		cursor:pointer;
+	}
+.video_fullscreen .content_sec{
+    z-index: 2;
+	overflow:auto;
+}
+}
+@media (min-width:992px){
+	 .nav ul{
+		  display: flex!important;
+	}	
+	 header i.m_icon{
+		 display:none!important;
+	 }
+}
+@media (max-width:767px){
+	.da-slider{
+		min-width:100%!important;
+		height:350px!important;
+	}
+	.da-slide h2{
+		font-size:26px!important;
+		top:80px!important;
+	}
+	.da-slide .da-link{
+		top:250px!important;
+	}	
+	.top_bar ul.cntct{
+		display:none!important;
+	}
+	.banner h1{
+		font-size:30px!important;
+	}
+	 header i{
+		 cursor:pointer;
+		 margin-right:15px;
+	 }
+	.signup_panel .input_div{
+		width:100%!important;
+		flex:0 0 100%!important;
+		margin:5px 0;
+	}	 
+	.login_panel{
+	width: 95%!important;
+    padding: 10px;
+    margin: 0 10px;
+	}
+	.login_panel .input_div{
+		width:100%;
+		flex: 0 0 100%!important;
+		margin:10px 0!important;
+	}
+	.what_is_pms p{
+		width:100%!important;
+		font-size: 14px!important;
+	}
+	.banner{
+		height:auto!important;
+		background: url(../images/banner_main_mobile.jpg) bottom right!important;	
+		background-size: cover!important;
+	}	
+	.core_strengths ul li{
+		flex:0 0 100%!important;
+	}
+	.what_is_pms h2, .benifits_pms h2, .who_we_are h2, .pms_services h2, .too_big_to_fail h2, .pms_services_main h2, .philosophy h2, .contact h2{
+		font-size:26px!important;
+		font-weight:500!important;
+	}
+	.banner button, .philosophy button, .pms_services_main button, .benifits_pms button{
+		text-align:center;
+		margin: 20px auto 0 auto!important;
+		display:block;
+	}
+	.exchanges_bar{
+		flex-direction:column
+	}
+	.exchanges_bar span{
+		margin:10px 0!important;
+	}
+	.breadcrumb{
+		padding:20px 0!important;
+	}
+.login_area{
+		flex-direction:column;
+}	
+@media (min-width: 768px){
+	.signup_panel .input_div{
+		flex:0 0 46%!important;
+	}
+}
+
+@media (max-width: 667px){
+	footer ul{
+		flex-direction:column;
+	}
+}
